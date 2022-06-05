@@ -35,14 +35,9 @@
             <h1 style="font-family: 'Permanent Marker', cursive;">IFFA Bandung Database</h1>
         </div>
     </nav>
-    <div class="container container-fluid mt-3">
-        <form class="d-flex search" role="search" action="" method="get" id="nameform">
-            <input class="form-control rounded-phill" type="search" placeholder="Cari pemain disini" aria-label="Search" name="search">
-            <button class="button btn btn-outline-primary ms-2" type="submit">Search</button>
-        </form>
-    </div>
+    
     <div class="row">
-        <div class="col-3">
+        <div class="col-3" style="background-color: lightskyblue">
             <div class="container mt-3">
                 <button class="btn btn-link" id="filter" style="color: black; text-decoration: none"><h4>Filter</h4></button><span id="close-filter-appear" style="display: none"><button id="close-filter" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
             </div>
@@ -52,16 +47,16 @@
                     <div id="team-appear" style="display: none" class="container">
                         <div class="container mb-1">
                             <form class="row row-cols-auto" action="" method="get" id="nameform">
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Bandits">Bandits</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Crows">Crows</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Free_Agent">Free Agent</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Ganesha_Touchdown">Ganesha Touchdown</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Panzers">Panzers</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Polar_Bears">Polar Bears</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Redskin_Predator">Redskin Predator</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Royal_Flush">Royal Flush</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Siberian_Husky">Siberian Husky</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Wff_Bandung">Wff Bandung</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Bandits">Bandits</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Crows">Crows</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Free_Agent">Free Agent</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Ganesha_Touchdown">Ganesha Touchdown</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Panzers">Panzers</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Polar_Bears">Polar Bears</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Redskin_Predator">Redskin Predator</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Royal_Flush">Royal Flush</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Siberian_Husky">Siberian Husky</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Wff_Bandung">Wff Bandung</button>
                             </form>
                         </div>
                     </div>
@@ -72,20 +67,20 @@
                         <h6 class="ms-2">Offense</h6>
                         <div class="ms-2 mb-1 container">
                             <form class="row row-cols-auto" action="" method="get" id="nameform">
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="QB">QB</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="WR">WR</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="RB">RB</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="OL">OL</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="TE">TE</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="QB">QB</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="WR">WR</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="RB">RB</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="OL">OL</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="TE">TE</button>
                             </form>
                         </div>
                         <h6 class="ms-2">Defense</h6>
                         <div class="ms-2 container">
                             <form class="row row-cols-auto" action="" method="get" id="nameform">
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="DL">DL</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="S">S</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="CB">CB</button>
-                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="LB">LB</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="DL">DL</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="S">S</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="CB">CB</button>
+                                <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="LB">LB</button>
                             </form>
                         </div>
                     </div>
@@ -94,21 +89,27 @@
                     <button class="btn btn-link" style="color: black; text-decoration: none" id="domisili"><h5>Domisili</h5></button><span id="close-domisili-appear" style="display: none"><button id="close-domisili" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
                     <div class="container mb-1" id="domisili-appear" style="display: none">
                         <form class="row row-cols-auto" role="search" action="" method="get" id="nameform">
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bandung">Bandung</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bandung Barat">Bandung Barat</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bekasi">Bekasi</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Cimahi">Cimahi</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Karawan">Karawang</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Subang">Subang</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Sukabumi">Sukabumi</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Tangerang">Tangerang</button>
-                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Tasikmalaya">Tasikmalaya</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bandung">Bandung</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bandung Barat">Bandung Barat</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bekasi">Bekasi</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Cimahi">Cimahi</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Karawan">Karawang</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Subang">Subang</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Sukabumi">Sukabumi</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Tangerang">Tangerang</button>
+                            <button class="btn btn-outline-dark rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Tasikmalaya">Tasikmalaya</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-9">
+            <div class="container container-fluid mt-3">
+                <form class="d-flex search" role="search" action="" method="get" id="nameform">
+                    <input class="form-control rounded-phill" type="search" placeholder="Cari pemain disini" aria-label="Search" name="search">
+                    <button class="button btn btn-outline-primary ms-2" type="submit">Search</button>
+                </form>
+            </div>
             <div class="container mt-4">
                 @if ($test == "")
                     <div class="row row-cols-3 g-4">
@@ -158,11 +159,34 @@
                 @else
                     <div class="row mb-2">  
                         <form class="" role="clear" action="" method="get" id="nameform">
-                            <i class="fa-solid fa-magnifying-glass"></i> Hasil pencarian untuk "<?php echo $test; ?>"
+                            @if ($test == 'Bandits' || $test == 'Crows' || $test == 'Free_Agent' || $test == 'Ganesha_Touchdown' || $test == 'Panzers' || $test == 'Polar_Bears' || $test == 'Redskin_Predator' || $test == 'Royal_Flush' || $test == 'Siberian_Husky' || $test == 'Wff_Bandung')
+                                @if ($test == 'Free_Agent')
+                                    <?php $test = 'Free Agent' ?>
+                                @elseif ($test == 'Ganesha_Touchdown')
+                                    <?php $test = 'Ganesha Touchdown' ?>
+                                @elseif ($test == 'Polar_Bears')
+                                    <?php $test = 'Polar Bears' ?>
+                                @elseif ($test == 'Redskin_Predator')
+                                    <?php $test = 'Redskin Predator' ?>
+                                @elseif ($test == 'Royal_Flush')
+                                    <?php $test = 'Royal Flush' ?>
+                                @elseif ($test == 'Siberian_Husky')
+                                    <?php $test = 'Siberian Husky' ?>
+                                @elseif ($test == 'Wff_Bandung')
+                                    <?php $test = 'WFF Bandung' ?>
+                                @endif
+                                <i class="fa-solid fa-magnifying-glass"></i> Hasil filter team "<?php echo $test; ?>"
+                            @elseif ($test == 'QB' || $test == 'WR' || $test == 'RB' || $test == 'OL' || $test == 'TE' || $test == 'DL' || $test == 'S' || $test == 'CB' || $test == 'LB')
+                                <i class="fa-solid fa-magnifying-glass"></i> Hasil filter posisi "<?php echo $test; ?>"
+                            @elseif ($test == 'Bandung' || $test == 'Bandung Barat' || $test == 'Bekasi' || $test == 'Cimahi' || $test == 'Karawang' || $test == 'Subang' || $test == 'Sukabumi' || $test == 'Tangerang' || $test == 'Tasikmalaya')
+                                <i class="fa-solid fa-magnifying-glass"></i> Hasil filter domisili "<?php echo $test; ?>"
+                            @else
+                                <i class="fa-solid fa-magnifying-glass"></i> Hasil pencarian untuk "<?php echo $test; ?>"
+                            @endif
                             <button class="button btn btn-outline-danger ms-3" type="submit">Clear</button>
                         </form>
                     </div>
-                    <div class="row row-cols-4 g-4">
+                    <div class="row row-cols-3 g-4">
                         <?php $i = 0; ?>
                         <?php foreach ($data as $dat) : ?>
                             <div class="col">
