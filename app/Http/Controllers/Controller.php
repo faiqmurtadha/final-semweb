@@ -74,6 +74,8 @@ class Controller extends BaseController
                     FILTER 
                         (regex (?posisi, '$test', 'i'))
                         }
+
+                    ORDER BY ASC (?nama)
                     "
                 );
             }elseif (isset($_GET['searchdomisili'])) {
@@ -102,6 +104,8 @@ class Controller extends BaseController
                     FILTER 
                         (regex (?domisili, '$test', 'i'))
                         }
+
+                    ORDER BY ASC (?nama)
                     "
                 );
             }elseif (isset($_GET['searchteam'])) {
@@ -129,6 +133,8 @@ class Controller extends BaseController
                     ?x :player_in ?player_in .
                     ?x :player_in :$test .
                     }
+
+                    ORDER BY ASC (?posisi)
                     "
                 );
             }else {
