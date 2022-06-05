@@ -41,11 +41,8 @@ class Controller extends BaseController
 
                         FILTER 
                         (regex (?nama, '$test', 'i') 
-                        || regex (?domisili, '$test', 'i') 
-                        || regex (?posisi, '$test', 'i') 
                         || regex (?nama_jersey, '$test', 'i') 
-                        || regex (?nomor_hp, '$test', 'i')
-                        || regex (?team, '$test', 'i'))
+                        || regex (?nomor_hp, '$test', 'i'))
                         }"
                 );
             }elseif (isset($_GET['searchposisi'])) {
