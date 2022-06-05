@@ -116,7 +116,7 @@
                         <?php $i = 0; ?>
                         <?php foreach ($data as $dat) : ?>
                             <div class="col">
-                            <div class="card">
+                            <div class="card shadow">
                                 <img src="/img/avatar.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 <h5 class="card-title text-center"><?= $dat['nama'] ?></h5>
@@ -190,7 +190,7 @@
                         <?php $i = 0; ?>
                         <?php foreach ($data as $dat) : ?>
                             <div class="col">
-                            <div class="card">
+                            <div class="card shadow">
                                 <img src="/img/avatar.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 <h5 class="card-title text-center"><?= $dat['nama'] ?></h5>
