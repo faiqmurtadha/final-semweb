@@ -41,174 +41,176 @@
             <button class="button btn btn-outline-primary ms-2" type="submit">Search</button>
         </form>
     </div>
-    <div class="container mt-3">
-        <button class="btn btn-link" id="filter" style="color: black; text-decoration: none"><h4>Filter</h4></button><span id="close-filter-appear" style="display: none"><button id="close-filter" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
-    </div>
-    <div id="filter-appear" style="display: none">
-        <div class="container">
-            <button class="btn btn-link" id="team" style="color: black; text-decoration: none"><h5>Team</h5></button><span id="close-team-appear" style="display: none"><button id="close-team" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
-            <div id="team-appear" style="display: none">
-                <div class="row mb-1">
-                    <form class="d-flex search col" action="" method="get" id="nameform">
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Bandits">Bandits</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Crows">Crows</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Free_Agent">Free Agent</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Ganesha_Touchdown">Ganesha Touchdown</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Panzers">Panzers</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Polar_Bears">Polar Bears</button>
-                    </form>
+    <div class="row">
+        <div class="col-3">
+            <div class="container mt-3">
+                <button class="btn btn-link" id="filter" style="color: black; text-decoration: none"><h4>Filter</h4></button><span id="close-filter-appear" style="display: none"><button id="close-filter" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
+            </div>
+            <div id="filter-appear" style="display: none">
+                <div class="container">
+                    <button class="btn btn-link" id="team" style="color: black; text-decoration: none"><h5>Team</h5></button><span id="close-team-appear" style="display: none"><button id="close-team" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
+                    <div id="team-appear" style="display: none" class="container">
+                        <div class="container mb-1">
+                            <form class="row row-cols-auto" action="" method="get" id="nameform">
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Bandits">Bandits</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Crows">Crows</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Free_Agent">Free Agent</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Ganesha_Touchdown">Ganesha Touchdown</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Panzers">Panzers</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Polar_Bears">Polar Bears</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Redskin_Predator">Redskin Predator</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Royal_Flush">Royal Flush</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Siberian_Husky">Siberian Husky</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchteam" value="Wff_Bandung">Wff Bandung</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mb-1">
-                    <form class="d-flex search col" action="" method="get" id="nameform">
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Redskin_Predator">Redskin Predator</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Royal_Flush">Royal Flush</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Siberian_Husky">Siberian Husky</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchteam" value="Wff_Bandung">Wff Bandung</button>
-                    </form>
+                <div class="container mt-3">
+                    <button class="btn btn-link" style="color: black; text-decoration: none" id="posisi"><h5>Posisi</h5></button><span id="close-posisi-appear" style="display: none"><button id="close-posisi" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
+                    <div id="posisi-appear" style="display: none" class="container">
+                        <h6 class="ms-2">Offense</h6>
+                        <div class="ms-2 mb-1 container">
+                            <form class="row row-cols-auto" action="" method="get" id="nameform">
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="QB">QB</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="WR">WR</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="RB">RB</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="OL">OL</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="TE">TE</button>
+                            </form>
+                        </div>
+                        <h6 class="ms-2">Defense</h6>
+                        <div class="ms-2 container">
+                            <form class="row row-cols-auto" action="" method="get" id="nameform">
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="DL">DL</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="S">S</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="CB">CB</button>
+                                <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchposisi" value="LB">LB</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3">
+                    <button class="btn btn-link" style="color: black; text-decoration: none" id="domisili"><h5>Domisili</h5></button><span id="close-domisili-appear" style="display: none"><button id="close-domisili" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
+                    <div class="container mb-1" id="domisili-appear" style="display: none">
+                        <form class="row row-cols-auto" role="search" action="" method="get" id="nameform">
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bandung">Bandung</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bandung Barat">Bandung Barat</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Bekasi">Bekasi</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Cimahi">Cimahi</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Karawan">Karawang</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Subang">Subang</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Sukabumi">Sukabumi</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Tangerang">Tangerang</button>
+                            <button class="btn btn-outline-primary rounded-pill me-2 mb-1 col" type="submit" name="searchdomisili" value="Tasikmalaya">Tasikmalaya</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container mt-3">
-            <button class="btn btn-link" style="color: black; text-decoration: none" id="posisi"><h5>Posisi</h5></button><span id="close-posisi-appear" style="display: none"><button id="close-posisi" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
-            <div id="posisi-appear" style="display: none">
-                <h6 class="ms-2">Offense</h6>
-                <div class="row ms-2 mb-1">
-                    <form class="d-flex search col" action="" method="get" id="nameform">
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="QB">QB</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="WR">WR</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="RB">RB</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="OL">OL</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="TE">TE</button>
-                    </form>
-                </div>
-                <h6 class="ms-2">Defense</h6>
-                <div class="row ms-2">
-                    <form class="d-flex search col" action="" method="get" id="nameform">
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="DL">DL</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="S">S</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="CB">CB</button>
-                        <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchposisi" value="LB">LB</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-3">
-            <button class="btn btn-link" style="color: black; text-decoration: none" id="domisili"><h5>Domisili</h5></button><span id="close-domisili-appear" style="display: none"><button id="close-domisili" class="btn btn-link text-danger"><i class="fa-solid fa-xmark"></i></button><span>
-            <div class="row mb-1" id="domisili-appear" style="display: none">
-                <form class="d-flex search col" role="search" action="" method="get" id="nameform">
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Bandung">Bandung</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Bandung Barat">Bandung Barat</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Bekasi">Bekasi</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Cimahi">Cimahi</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Karawan">Karawang</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Subang">Subang</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Sukabumi">Sukabumi</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Tangerang">Tangerang</button>
-                    <button class="btn btn-outline-primary rounded-pill me-2" type="submit" name="searchdomisili" value="Tasikmalaya">Tasikmalaya</button>
-                </form>
+        <div class="col-9">
+            <div class="container mt-4">
+                @if ($test == "")
+                    <div class="row row-cols-3 g-4">
+                        <?php $i = 0; ?>
+                        <?php foreach ($data as $dat) : ?>
+                            <div class="col">
+                            <div class="card">
+                                <img src="/img/avatar.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title text-center"><?= $dat['nama'] ?></h5>
+                                <p class="card-text">
+                                    <div><i class="fa-solid fa-person me-2 mb-2"></i><b>Posisi: </b></i><?= $dat['posisi'] ?></div>
+                                    <div><i class="fa-solid fa-user-tie me-2 mb-2"></i><b>Nama Jersey: </b></i><?= $dat['nama_jersey'] ?></div>
+                                    <div><i class="fa-solid fa-shirt me-2 mb-2"></i><b>Nomor Punggung: </b></i><?= $dat['nomor_punggung'] ?></div>
+                                    <div><i class="fa-solid fa-phone me-2 mb-2"></i><b>Nomor HP: </b></i><?= $dat['nomor_hp'] ?></div>
+                                    <div><i class="fa-solid fa-location-dot me-2 mb-2"></i><b>Domisili: </b></i><?= $dat['domisili'] ?></div>
+                                    <div><i class="fa-solid fa-calendar-days me-2 mb-2"></i><b>TTL: </b></i><?= $dat['tempat_lahir'] ?>, <?= $dat['tanggal_lahir'] ?></div>
+                                    <div><i class="fa-solid fa-people-group me-2 mb-2"></i><b>Team: </b></i>
+                                        @if ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Free_Agent')
+                                            Free Agent
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Bandits')
+                                            Bandits
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Crows')
+                                            Crows
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Ganesha_Touchdown')
+                                            Ganesha Touchdown
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Panzers')
+                                            Panzers
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Polar_Bears')
+                                            Polar Bears
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Redskin_Predator')
+                                            Redskin Predator
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Royal_Flush')
+                                            Royal Flush
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Siberian_Husky')
+                                            Siberian Husky
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Wff_Bandung')
+                                            WFF Bandung
+                                        @endif
+                                    </div>
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                @else
+                    <div class="row mb-2">  
+                        <form class="" role="clear" action="" method="get" id="nameform">
+                            <i class="fa-solid fa-magnifying-glass"></i> Hasil pencarian untuk "<?php echo $test; ?>"
+                            <button class="button btn btn-outline-danger ms-3" type="submit">Clear</button>
+                        </form>
+                    </div>
+                    <div class="row row-cols-4 g-4">
+                        <?php $i = 0; ?>
+                        <?php foreach ($data as $dat) : ?>
+                            <div class="col">
+                            <div class="card">
+                                <img src="/img/avatar.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title text-center"><?= $dat['nama'] ?></h5>
+                                <p class="card-text">
+                                    <div><i class="fa-solid fa-person me-2 mb-2"></i><b>Posisi: </b></i><?= $dat['posisi'] ?></div>
+                                    <div><i class="fa-solid fa-user-tie me-2 mb-2"></i><b>Nama Jersey: </b></i><?= $dat['nama_jersey'] ?></div>
+                                    <div><i class="fa-solid fa-shirt me-2 mb-2"></i><b>Nomor Punggung: </b></i><?= $dat['nomor_punggung'] ?></div>
+                                    <div><i class="fa-solid fa-phone me-2 mb-2"></i><b>Nomor HP: </b></i><?= $dat['nomor_hp'] ?></div>
+                                    <div><i class="fa-solid fa-location-dot me-2 mb-2"></i><b>Domisili: </b></i><?= $dat['domisili'] ?></div>
+                                    <div><i class="fa-solid fa-calendar-days me-2 mb-2"></i><b>TTL: </b></i><?= $dat['tempat_lahir'] ?>, <?= $dat['tanggal_lahir'] ?></div>
+                                    <div><i class="fa-solid fa-people-group me-2 mb-2"></i><b>Team: </b></i>
+                                        @if ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Free_Agent')
+                                            Free Agent
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Bandits')
+                                            Bandits
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Crows')
+                                            Crows
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Ganesha_Touchdown')
+                                            Ganesha Touchdown
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Panzers')
+                                            Panzers
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Polar_Bears')
+                                            Polar Bears
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Redskin_Predator')
+                                            Redskin Predator
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Royal_Flush')
+                                            Royal Flush
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Siberian_Husky')
+                                            Siberian Husky
+                                        @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Wff_Bandung')
+                                            WFF Bandung
+                                        @endif
+                                    </div>
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                @endif
             </div>
         </div>
     </div>
 
-    <div class="container mt-3  ">
-        @if ($test == "")
-            <div class="row row-cols-4 g-4">
-                <?php $i = 0; ?>
-                <?php foreach ($data as $dat) : ?>
-                    <div class="col">
-                    <div class="card">
-                        <img src="/img/avatar.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title text-center"><?= $dat['nama'] ?></h5>
-                        <p class="card-text">
-                            <div><i class="fa-solid fa-person me-2 mb-2"></i><b>Posisi: </b></i><?= $dat['posisi'] ?></div>
-                            <div><i class="fa-solid fa-user-tie me-2 mb-2"></i><b>Nama Jersey: </b></i><?= $dat['nama_jersey'] ?></div>
-                            <div><i class="fa-solid fa-shirt me-2 mb-2"></i><b>Nomor Punggung: </b></i><?= $dat['nomor_punggung'] ?></div>
-                            <div><i class="fa-solid fa-phone me-2 mb-2"></i><b>Nomor HP: </b></i><?= $dat['nomor_hp'] ?></div>
-                            <div><i class="fa-solid fa-location-dot me-2 mb-2"></i><b>Domisili: </b></i><?= $dat['domisili'] ?></div>
-                            <div><i class="fa-solid fa-calendar-days me-2 mb-2"></i><b>TTL: </b></i><?= $dat['tempat_lahir'] ?>, <?= $dat['tanggal_lahir'] ?></div>
-                            <div><i class="fa-solid fa-people-group me-2 mb-2"></i><b>Team: </b></i>
-                                @if ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Free_Agent')
-                                    Free Agent
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Bandits')
-                                    Bandits
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Crows')
-                                    Crows
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Ganesha_Touchdown')
-                                    Ganesha Touchdown
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Panzers')
-                                    Panzers
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Polar_Bears')
-                                    Polar Bears
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Redskin_Predator')
-                                    Redskin Predator
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Royal_Flush')
-                                    Royal Flush
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Siberian_Husky')
-                                    Siberian Husky
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Wff_Bandung')
-                                    WFF Bandung
-                                @endif
-                            </div>
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        @else
-            <div class="row mb-2">  
-                <form class="" role="clear" action="" method="get" id="nameform">
-                    <i class="fa-solid fa-magnifying-glass"></i> Hasil pencarian untuk "<?php echo $test; ?>"
-                    <button class="button btn btn-outline-danger ms-3" type="submit">Clear</button>
-                </form>
-            </div>
-            <div class="row row-cols-4 g-4">
-                <?php $i = 0; ?>
-                <?php foreach ($data as $dat) : ?>
-                    <div class="col">
-                    <div class="card">
-                        <img src="/img/avatar.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title text-center"><?= $dat['nama'] ?></h5>
-                        <p class="card-text">
-                            <div><i class="fa-solid fa-person me-2 mb-2"></i><b>Posisi: </b></i><?= $dat['posisi'] ?></div>
-                            <div><i class="fa-solid fa-user-tie me-2 mb-2"></i><b>Nama Jersey: </b></i><?= $dat['nama_jersey'] ?></div>
-                            <div><i class="fa-solid fa-shirt me-2 mb-2"></i><b>Nomor Punggung: </b></i><?= $dat['nomor_punggung'] ?></div>
-                            <div><i class="fa-solid fa-phone me-2 mb-2"></i><b>Nomor HP: </b></i><?= $dat['nomor_hp'] ?></div>
-                            <div><i class="fa-solid fa-location-dot me-2 mb-2"></i><b>Domisili: </b></i><?= $dat['domisili'] ?></div>
-                            <div><i class="fa-solid fa-calendar-days me-2 mb-2"></i><b>TTL: </b></i><?= $dat['tempat_lahir'] ?>, <?= $dat['tanggal_lahir'] ?></div>
-                            <div><i class="fa-solid fa-people-group me-2 mb-2"></i><b>Team: </b></i>
-                                @if ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Free_Agent')
-                                    Free Agent
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Bandits')
-                                    Bandits
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Crows')
-                                    Crows
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Ganesha_Touchdown')
-                                    Ganesha Touchdown
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Panzers')
-                                    Panzers
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Polar_Bears')
-                                    Polar Bears
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Redskin_Predator')
-                                    Redskin Predator
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Royal_Flush')
-                                    Royal Flush
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Siberian_Husky')
-                                    Siberian Husky
-                                @elseif ($dat['player_in'] == 'http://www.semanticweb.org/mf/ontologies/2022/4/player#Wff_Bandung')
-                                    WFF Bandung
-                                @endif
-                            </div>
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        @endif
-    </div>
 
     <script type="text/javascript">
 
